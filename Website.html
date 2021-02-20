@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is a home page</title>
+			<meta name="description" content="This is a page about html basics" />
+			<meta name="keywords" content="new, cars" />
+			<link rel="colonical" href="car.html" />
+			<meta name="robots" content="index, follow" />
+			<link rel="icon" href="icon.png" type=image/png />
+
+	</head>
+	
+	<body>
+		<div style="border:1px solid red;"><h1>HTML BASICS</h1></div>
+		
+		
+		<!-- for bold other command is Strong and for Itlaic it is em -->
+		<p> This is a Paragraph. <b>This is my first html page</b>. <mark>I am learning html</mark>. 
+		<br><i>I am very cute and sweet</i>. I am a 24 year old girl. <small> I am from Pune City </small>. 
+		<br><br> <span style="border:3px solid green;">I love Chicken</span> and fries and panipuri and <del>pizza</del> and <ins>biryani</ins> 
+		<br>I have completed my engineering from I<sup>2</sup>IT.
+		<br><br>P<sub>ooja</sub>
+		
+		<!-- I am using quatation Command here -->
+		<br><br><q>Live a life you will remember</q>
+		<br><blockquote cite="www.google.com">I am using block Quote here </blockquote>
+		<abbr title="World health Organization">WHO</abbr>
+		
+		
+		
+		</p>
+		<!-- address tag -->
+		<address> PUNE </address>
+		
+		<!-- Cite is used to tell the Tile of any book -->
+		<cite> The Secret </cite> is a good book...
+		
+		<!-- Anchor tag to create a link -->
+		<br><br><br><a href="https://www.google.com" target="_blank" title="You will go to Google :p">READ MORE</a>
+		 
+		<!-- for more content in a page we can give a reference of the text using LOCAL attribute
+		<p id="local">
+		<a href="#local"
+		-->
+		<!-- EMAIL LINK -->
+		<p>Contact me on <a href="mailto:poojakhodke5@gmail? Subject=hello">poojakhodke5@gmail.com</a></p>
+		
+		<!-- marquee -->
+		<p>
+		<marquee direction="right" style="color:red;"><h2><b>Bestfriend</b></h2></marquee>
+		</p>
+		
+		<!-- AUdio -->
+		<br><br>
+		<audio controls>
+			<source src="song.mp3" type="audio/mpeg">
+		</audio>
+		<br><br>
+		<!-- IMAGE -->
+		<img src="photo.jpg" alt="logo" width="400" height="500">
+		
+		<p>
+			<!-- Ordered List -->
+			<ol type="i" title= "THIS is the list of Beverages" >
+				<li>Coffee
+				<ol type="a">
+					<li>Black Coffe</li>
+					<li>Mocha</li>
+				</ol>
+				</li>
+				<li>MILK</li>
+				<li>Tea</li>
+				<li>Cold Drink</li>
+			</ol>
+			
+			<!-- Und=ordered List-->
+			<ul style="list-style-type: square;">
+				<li>Sun
+				<ul>
+					<li>Sunrise</li>
+					<li>Sunset</li>
+				
+				</ul>
+				</li>
+				
+				<li>Moon</li>
+			</ul>
+			
+			<!-- Description list -->
+			<dl>
+				<dt>Coffee</dt>
+				<dd>I have used the description list here</dd>
+			</dl>
+		</p>
+		
+		<p>
+		<!-- Table -->
+		<table border="1">
+			<caption>Table Example</captionS>
+			<thead style="color:blue;">
+				<tr>
+					<th>Column 1</th>
+					<th>Column 2</th>
+					<th>Column 3</th>
+					<th>Column 4</th>
+				</tr>
+			</thead>
+			<tbody style="color:green;">
+				<tr>
+					<th>Row 1</th>
+					<td>data 1</td>
+					<td>data 2</td>
+					<td>data 3</td>
+				</tr>
+				<tr>
+					<th>Row 2</th>
+					<td>data 4</td>
+						<td>
+							<table border="1">
+								<tr>
+									<td>column 1</td>
+									<td>column 2</td>
+								</tr>
+								<tr>
+									<td>column 3</td>
+									<td>column 4</td>
+								</tr>
+							</table>
+						</td>
+					
+					<td>data 6</td>
+				</tr>
+				<tr>
+					<th>Row 3</th>
+					<td>data 7</td>
+					<td>data 8</td>
+					<td>data 9</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<!-- Nested table table kandar table <td> i andar table-->
+		<br><br>
+		<!-- Iframe -->
+			<iframe src="https://www.ndtv.com/" width="500"></iframe>
+			
+			
+		
+		</p>
+		
+		<!-- Video -->
+		
+		<video controls width="200">
+			<source src="video.mp4" type="video/mp4">
+		
+		</video>
+		
+		<!-- PDF insert karne we can use three ways embed, Object, iframe -->
+		<br><br>
+		<embed src=pdf.pdf width="500" height="700" type="application/pdf">
+		<!-- iframe src="pdf.pdf" width="700" height="1000"></iframe -->
+		<!-- object data="pdf.pdf" width="500" height="700" type="application/pdf"></object -->
+		
+		<p>
+		<br><br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIETBRztDMU?start=302" frameborder="0" 
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</p>
+		<br><br>
+		<!-- Symbols usinh htmlentities -->
+			&copy;
+			&#8508;
+			&#128547;
+		<br><br>
+		
+		<!-- Image Map -->
+		<p>
+			<a href="https://amazon.com" target="_blank">
+				<img src="image.jpg" alt="" width="300" height="200">
+			</a>
+		</p>
+		
+		<p>
+			<!----- Form -->
+			<form>
+				<fieldset>
+					<legend>Basic Information</legend>
+					<label for="fname">First Name</label>
+					<input type="text" name="first_name" id="fname">
+					
+					<label for="mname">Middle Name</label>
+					<input type="text" name="middle_name" id="mname">
+					
+					<label for="lname">Last Name</label>
+					<input type="text" name="last_name" id="lname">
+					<br><br>
+					<input type="submit" Value="Done">
+					
+				</fieldset>
+				<fieldset>
+				<legend>Other Information</legend>
+
+				<div>
+					Color:<input type="color">
+					<br><br>
+				</div>
+				<div>
+					Date:<input type="date">
+					<br><br>
+				</div>
+				<div>
+					Email:<input type="email" placeholder="Enter Email">
+					<br><br>
+				</div>
+				<div>
+					Number:<input type="number" value="1" step="2">
+					<br><br>
+				</div>
+				
+				<div>
+					Password:<input type="password">
+					<br><br>
+				</div>
+				
+				<div>
+					Reset:<input type="reset">
+					<br><br>
+				</div>
+				<div>
+					Time:<input type="time">
+					<br><br>
+				</div>
+				</fieldset>
+				
+				<fieldset>
+				<legend>AdditionalInformation</legend>
+				
+				<textarea></textarea>
+				<br><br>
+				<select>List:
+					<option value="Car">Car</option>
+					
+					<option value="Bike">Bike</option>
+					
+					<option value="Train">Train</option>
+				</select>
+				<br><br>
+				<div>
+					URL:<input type="url">
+					<br><br>
+				</div>
+				
+				<div>
+					Range:<input type="range" min="500" max="5000">
+					<br><br>
+				</div>
+				
+				<div>
+					Upload file:<input type="file" multiple>
+					<br><br>
+				</div>
+				
+				<div>
+					Gender:<input type="radio" name="gender">Male
+					<input type="radio" name="gender">FeMale
+					<input type="radio" name="gender">Other
+					<br><br>
+					Sports<input type="checkbox" name="sports" Value="Football">Football
+						<input type="checkbox" name="sports" Value="Cricket">Cricket
+						<input type="checkbox" name="sports" Value="Kabadi">Kabadi
+					<br><br>
+				</div>
+				
+				</fieldset>
+				<!-- DATA LIST -->
+				
+				
+			</form>
+		</p>
+	</body>
+</html>
